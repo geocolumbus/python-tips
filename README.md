@@ -2,8 +2,9 @@
 
 ## Read a CSV file
 
+See https://earthly.dev/blog/csv-python/ for more on reading CSV files
+
 ```python
-https://earthly.dev/blog/csv-python/
 
 import csv
 
