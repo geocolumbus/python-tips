@@ -16,13 +16,22 @@ with open("filename.csv", 'r') as file:
 
 ### Filter rows
 
+```python
+
+import csv
+
 with open("filename.csv", 'r') as file:
   csvreader = csv.reader(file)
   for row in csvreader:
     if row.column == "some value":
       print(row)
+```
 
 ### Filter and write to a file
+
+```python
+
+import csv
 
 with open("./filename.csv", 'r') as file:
   csvreader = csv.reader(inputfile)
@@ -30,3 +39,4 @@ with open("./filename.csv", 'r') as file:
   for row in csvreader:
     if row.column == "some value":
       print(row)
+```
